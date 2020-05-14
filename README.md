@@ -17,7 +17,7 @@ More backups would also be nice instead of only when I decide to plug in my driv
 
 * These are expensive and I already have a hard drive.
 
-### Put my harddrive on the network ###
+#### Put my harddrive on the network ####
 
 * This is probably the ideal scenario however I had trouble with this.   I don't have a computer at my disposal to constantly have on connecting my drive the network.
 
