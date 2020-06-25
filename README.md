@@ -63,7 +63,7 @@ The [source](https://somethinginteractive.com/blog/2013/07/24/time-machine-auto-
 	# &> /dev/null redirects output so that it isn't printed
     if ! mount | grep "$vol_mount" &> /dev/null ; then
 		# disk is not - attempt to mount
-        if  diskutil mount "$vol_mount" | grep "Unable to find disk for" &> /dev/null ; then
+        if ! diskutil mount "$vol_mount" | grep "Unable to find disk for" &> /dev/null ; then
 			# unable to mount - most likely because disk is not plugged in
 			# Give up
             echo "unable to mount"
