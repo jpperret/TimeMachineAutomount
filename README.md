@@ -56,7 +56,7 @@ The [source](https://somethinginteractive.com/blog/2013/07/24/time-machine-auto-
 1. create a plane text file named `timemachine_backup.sh` with the following contents:
 
     ```bash
-        #!/bin/bash
+    #!/bin/bash
 
 	# name volume
 	vol_mount="DRIVENAME"
