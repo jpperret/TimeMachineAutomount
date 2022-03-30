@@ -1,3 +1,6 @@
+# REPO ARCHIVED; ACTIVE AS A GIST https://gist.github.com/jpperret/cb381b3d242b4b5bf22388da1d10b013
+
+
 # TimeMachineAutomount
 Automatically mount and unmount an external drive before running a time machine backup
 
